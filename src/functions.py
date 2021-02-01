@@ -1,4 +1,11 @@
 # this file contains a list of basic calculation functions
+import streamlit as st
+import pandas as pd
+
+@st.cache
+def load_csv(fpath):
+    df = pd.read_csv(fpath)
+    return df
 
 def calculate_hdd(df, base_temp, col):
     df['HDD'] = base_temp - df[col]

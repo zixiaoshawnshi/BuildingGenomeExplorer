@@ -6,7 +6,7 @@ import plotly.express as px
 import functions as f
 
 st.title("BDG2 Metadata Exploration")
-st.title("Author: Zixiao (Shawn) Shi")
+st.header("Author: Zixiao (Shawn) Shi")
 '''
 In this streamlit explorer we examine the metadata and weather data for the BDG2 dataset.
 
