@@ -51,6 +51,17 @@ def load_data():
 df, weather_df = load_data()
 
 '''
+## Number of buildings per site
+'''
+building_count = df.groupby("Site Name").count()
+building_bar_fig = px.bar(
+    x=building_count.index,
+    y=building_count['building_id'],
+    labels={'x': 'Site Name', 'y': 'Buildings'}
+)
+st.plotly_chart(building_bar_fig)
+
+'''
 ## Location of the buildings:
 
 '''
