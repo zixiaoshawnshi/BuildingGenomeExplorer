@@ -6,13 +6,13 @@ import plotly.express as px
 import functions as f
 
 st.title("BDG2 Metadata Exploration")
-st.header("Author: Zixiao (Shawn) Shi")
+st.header("Author: [Zixiao (Shawn) Shi](mailto:zixiao.shawn.shi@gmail.com)")
+st.text("In this streamlit explorer we examine the metadata and weather data for the BDG2 dataset.")
 '''
-In this streamlit explorer we examine the metadata and weather data for the BDG2 dataset.
 
 [Link to original dataset](https://github.com/buds-lab/building-data-genome-project-2)
 
-Some columns names have been remapped for better readibility.
+Some columns names have been remapped for better readability.
 '''
 # data loading and preparation
 @st.cache

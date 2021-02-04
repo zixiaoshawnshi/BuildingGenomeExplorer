@@ -6,7 +6,7 @@ from plotly import express as px, figure_factory as ff
 import functions as f
 
 st.title("BDG2 Site Energy Data Exploration")
-st.header("Author: Zixiao (Shawn) Shi")
+st.header("Author: [Zixiao (Shawn) Shi](zixiao.shawn.shi@gmail.com)")
 
 ROOT_URL = 'https://media.githubusercontent.com/media/buds-lab/building-data-genome-project-2/master/data/'
 meta_url = ROOT_URL + 'metadata/metadata.csv'
